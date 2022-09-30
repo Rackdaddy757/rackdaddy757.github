@@ -45,7 +45,6 @@ button{
     transition-duration: 0.6s;
     font-size: 20px;
     font-weight: 400;
-    border-radius: 20px;
 }
 
 button:hover{
