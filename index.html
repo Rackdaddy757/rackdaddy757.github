@@ -1,9 +1,120 @@
-<html>
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Cheat Sheet</title>
+    <link rel="stylesheet" href="./resources/css/index.css">
+</head>
+
+<!-- Header Notes -->
+<div>
+    <h1 class="header">HTML5 Cheat Sheet</h1>
+<p> Here you witness superfluous text. These words are only written to create space
+     between the header and the rest of the information on the page. I've done this 
+     to highlight what the header does when the page is scrolled down. So, I needed 
+    to add some more space in order to get this done. Which is why you see all of this 
+    text that doesn't really mean anything. </p>
+</div>
+
+<div>
+<!-- Navbar Section -->
+    <h1 class="navvy">Navigation Bar</h1>
+    <p>This Navbar Section has information on how to create an inline-block navbar with linked buttons. 
+        The buttons change color when the user hovers and they link to a seperate window. 
+    </p>
+    <nav class="navbar">
+        <ul>
+            <li>
+                <form action="https://www.nike.com" target="_blank">
+                    <button> Nike </button>
+                </form>
+                
+            </li>
+            <li>
+                <form action="https://www.altrarunning.com" target="_blank">
+                    <button>Altra</button>
+                </form>
+            </li>
+            <li>
+                <form action="https://rei.com" target="_blank">
+                    <button><link>Rei</button>
+                </form>
+            </li>
+        </ul>
+
+    </nav>
+</div>
+
+<div class="table">
 <body>
-  <h1>Lynnardo</h1>
-  <p>Welcome to my web party, party!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+    <h1>Table Cheat Sheet Section</h1>
+    <p>Listed below are different elements that are relavent to creating a table in HTML5.</p>
 </body>
- 
+
+<!-- Table -->
+
+    <table>
+        <!-- Table Header -->
+        <thead>
+        <tr>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+
+        <!-- Table Body -->
+        <tbody>
+        <tr>
+            <td>&lt;table&gt;</td>
+            <td>Table</td>
+            <td>The wrapper element for HTML tables.</td>
+        </tr>
+        <tr>
+            <td>&lt;thead&gt;</td>
+            <td>Table Head</td>
+            <td>The set of rows defining the column headers in a table.</td>
+        </tr>
+        <tr>
+            <td>&lt;tbody&gt;</td>
+            <td>Table Body</td>
+            <td>The set of rows actually containing table data.</td>
+        </tr>
+        <tr>
+            <td>&lt;tr&gt;</td>
+            <td>Table Row</td>
+            <td>The table row container</td>
+        </tr>
+    </tbody>
+<!-- Footer -->
+    <tfoot>
+        <tr>
+            <td>&lt;tfoot&gt;</td>
+            <td>Table Foot</td>
+            <td>The set of rows defining the footer of a table.</td>
+        </tr>
+    </tfoot>
+    </table>
+</div>
+
+<!-- Media Insertion -->
+<div>
+    <h1>Media Insertion</h1>
+    
+    <figure>
+        <img id= "falcon" src="https://birds.fieldmuseum.org/sites/birds.fieldmuseum.org/files/styles/media_gallery_large/public/2012_stmarys_female_flight_01.jpg?itok=gH0l16Qc" alt="A Peregrine Flacon in a dive.">
+        <figcaption>
+            <p>Peregrine Falcons are of the fastest animals on earth. They can travel up to 200mph while hunting for prey.
+                Plus they can see objects one mile away and track up to three moving objects at once!
+            </p>
+        </figcaption>
+    </figure>
+<br>
+    <figure>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/X4jJJQEg68E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </figure>
+</div>
+
 </html>
